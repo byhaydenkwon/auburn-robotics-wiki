@@ -93,19 +93,6 @@ validation:
   links:
     absolute_links: ignore
 extra:
-  analytics:
-    provider: google
-    property: G-BMFXD4Z82T
-  consent:
-    title: Cookies
-    description: >-
-      This site uses cookies to recognize and save repeated visits and
-      preferences. Analytics are also gathered to see what is most effective and
-      widely used, which helps make the wiki better!
-    actions:
-      - accept
-      - reject
-      - manage
   social:
     - icon: fontawesome/brands/github
       name: Auburn Robotics Wiki repo
