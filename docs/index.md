@@ -8,3 +8,4 @@ This is an internal knowledgebase; anyone at Auburn is [welcome to contribute](h
 VEX Override 2026-2027
 ///
 
+This is a test addition to demonstrate how to contribute!
