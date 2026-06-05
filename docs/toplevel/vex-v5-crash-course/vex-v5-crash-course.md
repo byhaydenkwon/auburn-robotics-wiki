@@ -11,7 +11,7 @@ At the start of every match, there is a 15-second Autonomous Period that is scor
 
 The most important rule in the Autonomous Period relates to the Autonomous Line, a double white line in the middle of the Field. **Crossing the Autonomous Line during the Autonomous Period is not allowed and forfeits the Autonomous Bonus to the other team.**
 
-![A completely empty VEX field with a double solid white line diagonally from corner to corner, single solid white line from the other two corners, and a solid white line box in the middle of it all, breaking the other lines](assets/images/vex-v5-crash-course/auton-line.png)
+![A completely empty VEX field with a double solid white line diagonally from corner to corner, single solid white line from the other two corners, and a solid white line box in the middle of it all, breaking the other lines](auton-line.png)
 /// caption
 The Autonomous Line in the 2026-2027 game, Override, runs diagonally from corner to corner. Note that the single white line running from the other two corners is safe to cross.
 ///
@@ -53,7 +53,7 @@ Many teams have some form of strategy selector to choose SAWP, a "teamwork auton
 
 The vast majority of autonomous routines are "dumb"; they do not react to changing field conditions or other robots and rather just follow a set path to score Points or contribute to AWP. Reactive autonomous routines (those that dynamically adjust strategy based on other robots' performance), however, can be very beneficial for robustness and to show off code in the notebook and during interviews.
 
-![A displayed autonomous selector on a V5 Brain screen, saying "Pre-Autonomous Chooser v1.0: Augment Driver Control?"](assets/images/vex-v5-crash-course/selector.png)
+![A displayed autonomous selector on a V5 Brain screen, saying "Pre-Autonomous Chooser v1.0: Augment Driver Control?"](selector.png)
 /// caption
 [An example of](https://www.vexforum.com/t/v5-pre-autonomous-menu-chooser-vcs/57797) a pre-match autonomous selector program; these have become ubiquitous, since there are at least 4 possibilities for autonomous routines in every match.
 ///
@@ -75,9 +75,9 @@ The Game Manual also mentions both types of driving; if a ruling is 50/50, the b
 Robots in V5RC are much larger, faster, and stronger than their IQ counterparts. It is common to be surprised at just how fast the bots are when first seeing them in the lab; since they're also made of metal, it is entirely possible for them to seriously injure you if you do something stupid. Safety!
 
 ### Structure
-Unlike in IQ, robots are made of metal. Groundbreaking stuff. There are two types of metal that are legal for use: steel and aluminum. Steel is much heavier but more durable, and aluminum is much lighter and a bit easier to deform. Good building practice usually dictates saving weight and exclusively using aluminum. For more on this, check out the page on [good building techniques](building/building-habits.md)!
+Unlike in IQ, robots are made of metal. Groundbreaking stuff. There are two types of metal that are legal for use: steel and aluminum. Steel is much heavier but more durable, and aluminum is much lighter and a bit easier to deform. Good building practice usually dictates saving weight and exclusively using aluminum. For more on this, check out the page on [good building techniques](/building/building-habits.md)!
 
-![Two robots on a table in the robotics lab](assets/images/vex-v5-crash-course/a-and-b-robots.png)
+![Two robots on a table in the robotics lab](a-and-b-robots.png)
 /// caption
 36830A's and 36830B's robots from the 2025-2026 season, Push Back. These robots are constructed fully out of aluminum.
 ///
@@ -96,7 +96,7 @@ The V5 pneumatics system is broadly similar to the IQ one, with the only everyda
 New in the 2026-2027 Override season is the requirement of a VEX-manufactured [Pressure Gauge](https://www.vexrobotics.com/spare-pneumatics.html) on every robot with pneumatics.
 
 ### Motors
-![A VEX V5 Smart Motor with a green 200RPM cartridge installed](assets/images/vex-v5-crash-course/smartmotor.png)
+![A VEX V5 Smart Motor with a green 200RPM cartridge installed](smartmotor.png)
 /// caption
 An [11-watt Smart Motor](https://www.vexrobotics.com/276-4840.html) with a green 200RPM cartridge installed.
 ///
@@ -163,7 +163,7 @@ Alliance Selection works like this:
 
 ### Elimination Matches
 The 16-alliance bracket is shown below. Teams play in this order to determine the Tournament Champion.
-![16 alliance bracket, with 1 v 16 on the left, 2 v 15 on the right, and alternating](assets/images/vex-v5-crash-course/16-elim-bracket.png)
+![16 alliance bracket, with 1 v 16 on the left, 2 v 15 on the right, and alternating](16-elim-bracket.png)
 
 * Tournaments that qualify to Worlds play their Final match as a best of 3, with the first Alliance to reach two wins being declared Tournament Champion.
 * Elimination Matches have some rule changes related to Violations; for instance, Disqualifications apply to the entire alliance in Elimination Matches, not just the team that committed the Major Violation.

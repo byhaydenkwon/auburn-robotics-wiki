@@ -5,22 +5,22 @@ edit_uri: https://github.com/byhaydenkwon/auburn-robotics-wiki/edit/main/docs/
 
 nav:
   - Welcome: index.md
-  - About: about.md
-  - Roadmap: roadmap.md
-  - VEX V5 Crash Course: vex-v5-crash-course.md
+  - About: toplevel/about/about.md
+  - Roadmap: toplevel/roadmap/roadmap.md
+  - VEX V5 Crash Course: toplevel/vex-v5-crash-course/vex-v5-crash-course.md
   - Design:
-      - Drivetrain Design: design/drivetrain-design.md
+      - Drivetrain Design: design/drivetrain-design/drivetrain-design.md
   - Hardware and Building:
-      - Intro to VEX Building: building/intro-to-vex-building.md
-      - Building Habits and Techniques: building/building-habits.md
-      - Building a Drivetrain: building/building-a-drivetrain.md
-      - Pneumatics: building/pneumatics.md
+      - Intro to VEX Building: building/intro-to-vex-building/intro-to-vex-building.md
+      - Building Habits and Techniques: building/building-habits/building-habits.md
+      - Building a Drivetrain: building/building-a-drivetrain/building-a-drivetrain.md
+      - Pneumatics: building/pneumatics/pneumatics.md
   - Software and Programming:
-      - Programming Languages: programming/programming-languages.md
+      - Programming Languages: programming/programming-languages/programming-languages.md
   - Driving and Strategy:
-      - Intro to VEX Driving: driving/intro-to-vex-driving.md
+      - Intro to VEX Driving: driving/intro-to-vex-driving/intro-to-vex-driving.md
   - Documentation and Notebooking:
-      - Placeholder: placeholder-coming-soon.md
+      - Placeholder: toplevel/placeholder-coming-soon/placeholder-coming-soon.md
 
 theme:
   name: material
@@ -89,6 +89,9 @@ markdown_extensions:
 extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+validation:
+  links:
+    absolute_links: ignore
 extra:
   analytics:
     provider: google

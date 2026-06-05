@@ -20,7 +20,7 @@ A screw joint's purpose is to replace the use of an axle. Screw joints are extre
 Nylon screws and nuts are extremely useful in weight saving. Weight saving is such an important part in VEX building because it makes your robot lighter and faster. You want to put nylon screws and nuts in low-stress areas on your robots such as bearings or structure. You do not want them on parts that will be in constant contact or under stress. Since they are nylon, which are plastic, they will break very easily. I do not recommend putting them in hard to reach spots because if they were to break it's going to be a pain to replace.
 
 ## Custom Plastic
-![A rectangular piece of plastic in CAD with anime girls on it](../assets/images/building/building-habits.md/image.png)
+![A rectangular piece of plastic in CAD with anime girls on it](image.png)
 /// caption
 Plastic in CAD, by Harrison Elkins.
 ///

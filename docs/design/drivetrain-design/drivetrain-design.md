@@ -45,7 +45,7 @@ In the 2026-2027 season Override, you will have 11w less of power on your drive.
 
 If you want more information, I recommend reading [this](https://www.vexforum.com/t/catalogue-of-drive-gearings/109498), but I wouldn't copy the exact gearing of some of these.
 
-![A drivetrain with 2.75 inch wheels at 450 RPM, using 600 RPM blue cartridges geared down 36:48](../assets/images/design/drivetrain-design/im1.png)
+![A drivetrain with 2.75 inch wheels at 450 RPM, using 600 RPM blue cartridges geared down 36:48](im1.png)
 
 I recommend this layout due to it having a low center of gravity, being easy to build and build around, and having a good balance of speed and acceleration.
 
@@ -56,7 +56,7 @@ I recommend this layout due to it having a low center of gravity, being easy to 
 ## Drive Dimensions
 Now that you've looked at your drive speed and calculated your linear speeds, drive dimensions are the next thing to take a look at. This will mainly be decided by what mechanisms you are making. This year, in Override, I recommend a drive length of at least 30 holes long by 27 holes wide. I have ran this since High Stakes. I recommend a very long drive this year because of the expansion limit, since longer drives tip over less. I usually recommend as small as possible width-wise as you can make, but 27 holes leaves a lot of room for odom pods and game elements. 25-30 hole crossbars are not uncommon. 
 
-![A 35 by 27 hole purple CAD drivetrain](../assets/images/design/drivetrain-design/im2.png)
+![A 35 by 27 hole purple CAD drivetrain](im2.png)
 /// caption
 35 hole x 27 hole drive
 ///
@@ -66,7 +66,7 @@ Now that you've looked at your drive speed and calculated your linear speeds, dr
 
 You can choose between a 3 hole gap and a 4 hole gap. A 3 hole gap is always better if you make it right. It saves an inch on the drive and looks nicer, but 4 is fine and it's also easier to build.
 
-![A top view CAD screenshot showing one side of a three-hole gap drivetrain measured by a crossbrace](../assets/images/design/drivetrain-design/im3.png)
+![A top view CAD screenshot showing one side of a three-hole gap drivetrain measured by a crossbrace](im3.png)
 /// caption
 3 hole gap
 ///
@@ -85,7 +85,7 @@ For example, for a 450 RPM drive, all of your wheels have 48-tooth gears while y
 ### Gearing 5.5w Motors
 You will most likely have a four-motor drive with one 5.5w motor on either side in Override. Almost every drive uses 600 RPM blue cartridges, so this raises an issue: 5.5w motors run at only 200 RPM. In order to equalize the speeds, you need to gear up the 200 RPM to 600 RPM by making a "motor stack" and then adding a 36:12 gear ratio to the half motor.
 
-![A CAD screenshot of a gearing setup for a 5.5w motor along with 11w motors](../assets/images/design/drivetrain-design/im4.png)
+![A CAD screenshot of a gearing setup for a 5.5w motor along with 11w motors](im4.png)
 /// caption
 5.5w gearing
 ///
