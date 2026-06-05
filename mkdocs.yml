@@ -7,6 +7,7 @@ nav:
   - Welcome: index.md
   - About: toplevel/about/about.md
   - Roadmap: toplevel/roadmap/roadmap.md
+  - Contributing: toplevel/contributing/contributing.md
   - VEX V5 Crash Course: toplevel/vex-v5-crash-course/vex-v5-crash-course.md
   - Design:
       - Drivetrain Design: design/drivetrain-design/drivetrain-design.md
