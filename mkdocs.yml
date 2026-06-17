@@ -62,10 +62,12 @@ extra_css:
   - assets/stylesheets/extra.css
 plugins:
   - search
+  - social:
+      enabled: !ENV [ARW_PROD, false]
   - git-committers:
       repository: byhaydenkwon/auburn-robotics-wiki
       branch: main
-      enabled: !ENV [ARW_COMMITTERS, false]
+      enabled: !ENV [ARW_PROD, false]
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
