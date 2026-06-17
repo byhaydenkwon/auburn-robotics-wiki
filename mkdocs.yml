@@ -1,4 +1,7 @@
 site_name: Auburn Robotics Wiki
+site_description:
+  A knowledgebase for Auburn High robotics, including information on design,
+  building, coding, and notebooking.
 site_url: https://auburn-robotics-wiki.pages.dev
 # repo_url: https://github.com/byhaydenkwon/auburn-robotics-wiki
 edit_uri: https://github.com/byhaydenkwon/auburn-robotics-wiki/edit/main/docs/
