@@ -2,11 +2,18 @@ version = 1
 revision = 3
 requires-python = ">=3.13"
 
+[manifest]
+members = [
+    "auburn-robotics-wiki",
+    "mkdocs-auto-description",
+]
+
 [[package]]
 name = "auburn-robotics-wiki"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "mkdocs-auto-description" },
     { name = "mkdocs-git-committers-plugin-2" },
     { name = "mkdocs-git-revision-date-localized-plugin" },
     { name = "mkdocs-material", extra = ["imaging"] },
@@ -14,6 +21,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "mkdocs-auto-description", editable = "mkdocs-auto-description" },
     { name = "mkdocs-git-committers-plugin-2", specifier = ">=2.5.0" },
     { name = "mkdocs-git-revision-date-localized-plugin", specifier = ">=1.5.1" },
     { name = "mkdocs-material", extras = ["imaging"], specifier = ">=9.7.6" },
@@ -373,6 +381,17 @@ sdist = { url = "https://files.pythonhosted.org/packages/bc/c6/bbd4f061bd16b3782
 wheels = [
     { url = "https://files.pythonhosted.org/packages/22/5b/dbc6a8cddc9cfa9c4971d59fb12bb8d42e161b7e7f8cc89e49137c5b279c/mkdocs-1.6.1-py3-none-any.whl", hash = "sha256:db91759624d1647f3f34aa0c3f327dd2601beae39a366d6e064c03468d35c20e", size = 3864451, upload-time = "2024-08-30T12:24:05.054Z" },
 ]
+
+[[package]]
+name = "mkdocs-auto-description"
+version = "0.1.0"
+source = { editable = "mkdocs-auto-description" }
+dependencies = [
+    { name = "mkdocs" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "mkdocs", specifier = ">=1.4" }]
 
 [[package]]
 name = "mkdocs-get-deps"
