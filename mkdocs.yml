@@ -68,6 +68,11 @@ plugins:
   - auto-description
   - social:
       enabled: !ENV [ARW_PROD, false]
+      cards_layout_options:
+        font_family: IBM Plex Sans
+        background_color: "#050505b0"
+        background_image: docs/assets/static/ateam.jpg
+        color: "#e7e8eb"
   - git-committers:
       repository: byhaydenkwon/auburn-robotics-wiki
       branch: main
