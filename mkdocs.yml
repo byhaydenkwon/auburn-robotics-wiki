@@ -63,9 +63,10 @@ theme:
         name: Switch to dark mode
 extra_css:
   - assets/stylesheets/extra.css
+hooks:
+  - hooks/auto_description.py
 plugins:
   - search
-  - auto-description
   - social:
       enabled: !ENV [ARW_PROD, false]
       cards_layout_options:
@@ -112,6 +113,7 @@ extra:
       name: Auburn Robotics Wiki repo
       link: https://github.com/byhaydenkwon/auburn-robotics-wiki
 copyright:
-  This wiki is licensed under a <a id="copyright-notice"
+  Except where otherwise noted, this wiki is licensed under the <a
+  id="copyright-notice"
   href=https://creativecommons.org/licenses/by-sa/4.0/>Creative Commons
   Attribution-ShareAlike 4.0 International</a> license.
